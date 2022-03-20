@@ -3,14 +3,14 @@
 import {jsx, Container, Image} from 'theme-ui';
 import SectionHeading from "./section-heading";
 
-const Languages = ({ data }) => {
+const SdkIntegraion = ({ data }) => {
   return (
     <section id="supported-langs" sx={styles.section}>
       <Container>
         <SectionHeading slogan={data?.header} title={data?.title} />
         <figure sx={styles.figure}>
-          <a target="_blank" href="https://docs.apito.io/quick-start">
-            <Image width={1024} height={320} src={data?.image.url} alt="Apito SDK Integration" title={"Apito SDK Integration"} />
+          <a target="_blank" href={data?.link}>
+            <Image width={'auto'} height={320} src={data?.image.url} alt={data?.title} title={data?.title} />
           </a>
         </figure>
       </Container>
@@ -18,7 +18,7 @@ const Languages = ({ data }) => {
   );
 };
 
-export default Languages;
+export default SdkIntegraion;
 
 const styles = {
   section: {

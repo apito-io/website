@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Graphql(props) {
+function GraphqlIcon(props) {
   return (
     <svg
       width={38}
@@ -40,4 +40,4 @@ function Graphql(props) {
   );
 }
 
-export default Graphql;
+export default GraphqlIcon;

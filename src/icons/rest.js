@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Json = (props) => {
+const RESTIcon = (props) => {
   return (
     <svg
       width={42}
@@ -20,4 +20,4 @@ const Json = (props) => {
   );
 };
 
-export default Json;
+export default RESTIcon;

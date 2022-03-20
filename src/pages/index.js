@@ -6,9 +6,12 @@ import {themeSettings} from "../theme/theme-settings";
 import HeroBanner from "../components/hero-banner";
 import {HomePageData} from "../data/home-page";
 import Seo from "../components/seo";
-import SDKintegration from "../components/languages";
+import SDKintegration from "../components/sdk-integraion";
 import Communications from "../components/support";
 import Footer from "../components/footer/footer";
+import Features from "../components/features";
+import Projects from "../components/projects";
+import ExampleQueries from "../components/example-queries";
 
 function Hello() {
     return (
@@ -19,7 +22,11 @@ function Hello() {
                 <StickyHeader/>
                 <HeroBanner data={HomePageData.header}/>
 
-
+                <Features features={HomePageData.features1} hideSection={true} />
+                <Projects data={HomePageData.projects} />
+                <Features features={HomePageData.features2} />
+                <ExampleQueries data={HomePageData.exampleQueries} />
+                <Features features={HomePageData.features3} hideSection={true}/>
                 <SDKintegration data={HomePageData.sdk}/>
                 <Communications data={HomePageData.communications}/>
                 <Footer/>

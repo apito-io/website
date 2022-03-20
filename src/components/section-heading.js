@@ -6,7 +6,7 @@ const SectionHeading = ({ slogan, title, description, ...props }) => {
   return (
     <div sx={styles.heading} {...props}>
       {slogan && <Text as="span">{slogan}</Text>}
-      <Heading as="h1">{title}</Heading>
+      <Heading as="h2">{title}</Heading>
       {description && <Text as="p">{description}</Text>}
     </div>
   );
@@ -17,7 +17,7 @@ export default SectionHeading;
 const styles = {
   heading: {
     // mb: [30, null, null, 50, 70],
-    maxWidth: 800,
+    maxWidth: 750,
     m: ['0 auto 40px', null, null, '0 auto 70px'],
     textAlign: 'center',
     span: {

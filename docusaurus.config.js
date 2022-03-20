@@ -50,14 +50,14 @@ const config = {
         },
         items: [
           {
-            to: 'docs',
-            activeBasePath: 'docs',
+            to: 'docs/',
+            activeBasePath: 'docs/',
             label: 'Index',
             position: 'left',
           },
           {
-            to: 'docs/intro',
-            activeBasePath: 'docs/intro',
+            to: 'docs/build-api-quick-start-guide',
+            activeBasePath: 'docs/build-api-quick-start-guide',
             label: 'Getting Started',
             position: 'left',
           },
