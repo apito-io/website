@@ -19,21 +19,15 @@ const Features = ({ features, hideSection }) => {
           i % 2 === 0 ?
             <div key={i} sx={styles.grid}>
               <div sx={styles.heading}>
-                <Image width={65} height={65} src={feature?.icon?.url} alt='browser' />
-                <Text as='span' className='slogan'>
-                  {feature?.header}
-                </Text>
-                <Heading>{feature?.title}</Heading>
-                <Text as='p'>
-                  {feature?.description?.markdown}
-                </Text>
+                <Text as='span' className='slogan'>{feature?.header}</Text>
+                <Heading as='h2'>{feature?.title}</Heading>
+                <Text as='p'>{feature?.description?.markdown}</Text>
                 {feature.link && (
-                  <Button
-                    variant='primary'
-                    onClick={/*router.push(feature.link) */ null}
-                  >
-                    Learn More
-                  </Button>
+                    <a href={feature.link} rel="noreferrer" target="_blank">
+                      <Button variant="primary">
+                        Learn More
+                      </Button>
+                    </a>
                 )}
               </div>
               <Flex as='figure' sx={styles.figure}>
@@ -44,22 +38,15 @@ const Features = ({ features, hideSection }) => {
                 <Image width={625} height={525} src={feature?.cover?.url} alt='browser' />
               </Flex>
               <div sx={styles.heading}>
-                <Text as='span' className='slogan'>
-                  {feature?.header}
-                </Text>
-                <Heading>
-                  {feature?.title}
-                </Heading>
-                <Text as='p'>
-                  {feature?.description?.markdown}
-                </Text>
+                <Text as='span' className='slogan'>{feature?.header}</Text>
+                <Heading as='h2'>{feature?.title}</Heading>
+                <Text as='p'>{feature?.description?.markdown}</Text>
                 {feature.link && (
-                  <Button
-                    variant='primary'
-                    onClick={/*router.push(feature.link) */ null}
-                  >
-                    Get Started
-                  </Button>
+                    <a href={feature.link} rel="noreferrer" target="_blank">
+                      <Button variant="primary">
+                        Learn More
+                      </Button>
+                    </a>
                 )}
               </div>
             </div>
@@ -92,9 +79,10 @@ const styles = {
       letterSpacing: 2.1,
       textTransform: 'uppercase',
       color: 'primary',
+      marginLeft: 1
     },
     h2: {
-      fontSize: [24, null, null, 48],
+      fontSize: [24, null, null, 36],
       fontWeight: [500, null, null, 700],
       lineHeight: [1.6, null, null, 1.15],
       //letterSpacing: '-1.5px',

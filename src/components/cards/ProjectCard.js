@@ -10,7 +10,7 @@ const ProjectCard = ({ data }) => {
         <Image width={500} height={400} src={data.data.cover.url} alt={data.data.title} title={data.data.title} />
       </Flex>
       <div sx={styles.content}>
-        <Heading as="h4">{data.data.title}</Heading>
+        <Heading as="h3">{data.data.title}</Heading>
         <Text as="p">
           <Markdown source={data.data.description.markdown} />
         </Text>
@@ -20,7 +20,7 @@ const ProjectCard = ({ data }) => {
             <Button variant="outlinedPrimary"> Login </Button>
           </a>
           <a href={data.data.repo_link} rel="noreferrer" target="_blank">
-            <Button variant="primary" sx={{ ml: [23] }}>
+            <Button variant="primary">
               Sign Up
             </Button>
           </a>
@@ -46,7 +46,7 @@ const styles = {
     minHeight: ['auto', null, null, 154],
     margin: ['25px 0 20px', null, null, '35px 0 30px'],
     padding: '0 35px',
-    h4: {
+    h3: {
       color: 'heading',
       fontWeight: 500,
       fontSize: [18, null, null, 22],
@@ -67,17 +67,6 @@ const styles = {
     span: {
       display: 'inline-flex',
       justifyContent: 'center',
-    },
-    a: {
-      color: '#000',
-      textDecoration: 'none',
-      fontSize: [16, null, null, 18],
-      lineHeight: 1.44,
-      transition: '0.3s ease 0s',
-      padding: '8px 12px',
-      ':hover': {
-        color: 'primary',
-      },
     },
   },
 };

@@ -49,7 +49,7 @@ export const HomePageData = {
         data: [
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/2CIRIBQ6GB_apito_console.png"
+                    "url": "https://cdn.apito.io/media/apito_website/FX9FK3SLJ5_database_model.png"
                 },
                 "description": {
                     "markdown": "Model your database with fields & relations"
@@ -63,7 +63,7 @@ export const HomePageData = {
             },
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/TM3F0KHCMN_dual_engine_api.png"
+                    "url": "https://cdn.apito.io/media/apito_website/0YEWAUG2NN_content_management.png"
                 },
                 "description": {
                     "markdown": "Insert, Delete & Update your content with ease. Apito has with multilingual support"
@@ -77,7 +77,7 @@ export const HomePageData = {
             },
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/TM3F0KHCMN_dual_engine_api.png"
+                    "url": "https://cdn.apito.io/media/apito_website/MG3MQF2EPF_cloud_functions.png"
                 },
                 "description": {
                     "markdown": "Ability to extend your api with cloud functions"
@@ -256,7 +256,7 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
         data: [
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/2CIRIBQ6GB_apito_console.png"
+                    "url": "https://cdn.apito.io/media/apito_website/YJC8HDWKFU_roles_permissions.png"
                 },
                 "description": {
                     "markdown": "Ability to manage api access via custom roles & permissions"
@@ -270,7 +270,7 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
             },
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/TM3F0KHCMN_dual_engine_api.png"
+                    "url": "https://cdn.apito.io/media/apito_website/Q1P2JTKSCZ_file_storage.png"
                 },
                 "description": {
                     "markdown": "Image Hosting for your Application and files with Upload API Support"
@@ -284,7 +284,7 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
             },
             {
                 "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/homepagev2/TM3F0KHCMN_dual_engine_api.png"
+                    "url": "https://cdn.apito.io/media/apito_website/2544KY1LXF_auth_module.png"
                 },
                 "description": {
                     "markdown": "Enable One click JWT based authentication support to your API"

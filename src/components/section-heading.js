@@ -5,9 +5,9 @@ import { jsx, Heading, Text } from 'theme-ui';
 const SectionHeading = ({ slogan, title, description, ...props }) => {
   return (
     <div sx={styles.heading} {...props}>
-      {slogan && <Text as="span">{slogan}</Text>}
+      <Text as="span">{slogan}</Text>
       <Heading as="h2">{title}</Heading>
-      {description && <Text as="p">{description}</Text>}
+      <Text as="p">{description}</Text>
     </div>
   );
 };
@@ -17,25 +17,26 @@ export default SectionHeading;
 const styles = {
   heading: {
     // mb: [30, null, null, 50, 70],
-    maxWidth: 750,
+    maxWidth: 850,
     m: ['0 auto 40px', null, null, '0 auto 70px'],
     textAlign: 'center',
     span: {
       color: 'primary',
-      fontSize: [16, null, null, 20],
+      fontSize: [14, null, null, 18],
       fontWeight: 500,
-      mb: ['8px', null, null, 18],
+      mb: ['8px', null, null, 0],
       display: 'inline-flex',
+      textTransform: 'uppercase'
     },
     h2: {
       color: 'heading',
       fontWeight: 500,
-      fontSize: [24, null, null, 38],
+      fontSize: [24, null, null, 30],
       lineHeight: 1.6,
       letterSpacing: -1,
     },
     p: {
-      fontSize: 18,
+      fontSize: 24,
       lineHeight: 2.11,
     },
   },
