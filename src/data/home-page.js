@@ -15,6 +15,21 @@ export const HomePageData = {
         data: [
             {
                 "cover": {
+                    "url": "https://cdn.apito.io/media/apito_website/FX9FK3SLJ5_database_model.png"
+                },
+                "description": {
+                    "markdown": "Model your database with fields & relations"
+                },
+                "header": "DATABASE",
+                "icon": {
+                    "url": "https://cdn.apito.io/media/apito_website/TX9PNRYAVX_webhooks.svg"
+                },
+                "link": "/docs/model/database-design",
+                "link_text": "Design your Database",
+                "title": "Database Modeling has never been easier!"
+            },
+/*            {
+                "cover": {
                     "url": "https://cdn.apito.io/media/apito_website/homepagev2/2CIRIBQ6GB_apito_console.png"
                 },
                 "description": {
@@ -26,7 +41,7 @@ export const HomePageData = {
                 },
                 "link": "https://docs.apito.io/quick-start",
                 "title": "Develop your API offline in your localhost"
-            },
+            },*/
             {
                 "cover": {
                     "url": "https://cdn.apito.io/media/apito_website/homepagev2/TM3F0KHCMN_dual_engine_api.png"
@@ -38,7 +53,8 @@ export const HomePageData = {
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/build-api-quick-start-guide",
+                "link_text": "See How",
                 "title": "Build API in both GraphQL & REST API"
             }
         ],
@@ -47,20 +63,7 @@ export const HomePageData = {
         slogan : 'Powerful & Flexible',
         title : 'Apito Console helps accelerates your API Development',
         data: [
-            {
-                "cover": {
-                    "url": "https://cdn.apito.io/media/apito_website/FX9FK3SLJ5_database_model.png"
-                },
-                "description": {
-                    "markdown": "Model your database with fields & relations"
-                },
-                "header": "DATABASE",
-                "icon": {
-                    "url": "https://cdn.apito.io/media/apito_website/TX9PNRYAVX_webhooks.svg"
-                },
-                "link": "https://docs.apito.io/quick-start",
-                "title": "Database Modeling has never been easier!"
-            },
+
             {
                 "cover": {
                     "url": "https://cdn.apito.io/media/apito_website/0YEWAUG2NN_content_management.png"
@@ -72,7 +75,8 @@ export const HomePageData = {
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/build-api-quick-start-guide#3-insert-your-content",
+                "link_text": "Explore",
                 "title": "Robust Content Management System"
             },
             {
@@ -86,7 +90,8 @@ export const HomePageData = {
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/logic/writing-cloud-functions",
+                "link_text": "Extend Your API",
                 "title": "Write Cloud Function to Extend your API"
             }
         ],
@@ -265,7 +270,8 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/TX9PNRYAVX_webhooks.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/console/adding-rbac-role-based-permissions-support-to-your-api",
+                "link_text": "Learn How",
                 "title": "Manage Who will have access to your API & how"
             },
             {
@@ -279,7 +285,8 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/build-api-quick-start-guide",
+                "link_text": "Host Your Files",
                 "title": "Stop worring about hosting your images elsewhere"
             },
             {
@@ -293,7 +300,8 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
                 "icon": {
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
-                "link": "https://docs.apito.io/quick-start",
+                "link": "/docs/auth/auth-support-in-api",
+                "link_text": "Learn More",
                 "title": "Add Authentication Support to your API"
             }
         ],

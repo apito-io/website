@@ -60,7 +60,7 @@ const consoleUsages = [
                 permissions.
             </>
         ),
-        go: 'docs/auth/intro'
+        go: 'docs/auth/auth-support-in-api'
     },
     {
         title: 'Writing Logic / Extend Your API',
@@ -71,7 +71,7 @@ const consoleUsages = [
                 Lambda or Google Cloud Functions.
             </>
         ),
-        go: 'docs/logic/intro'
+        go: 'docs/logic/writing-cloud-functions'
     }
 
 ];

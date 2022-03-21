@@ -7,7 +7,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div sx={styles.card}>
       <Flex as="figure">
-        <Image width={500} height={400} src={data.data.cover.url} alt={data.data.title} title={data.data.title} />
+        <Image width={300} height={200} src={data.data.cover.url} alt={data.data.title} title={data.data.title} />
       </Flex>
       <div sx={styles.content}>
         <Heading as="h3">{data.data.title}</Heading>
@@ -63,7 +63,7 @@ const styles = {
   links: {
     display: 'grid',
     gridTemplateColumns: 'repeat(2,1fr)',
-    marginBottom: [15, null, null, 23],
+    marginBottom: [15, null, null, 15],
     span: {
       display: 'inline-flex',
       justifyContent: 'center',

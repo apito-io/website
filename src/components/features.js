@@ -25,7 +25,7 @@ const Features = ({ features, hideSection }) => {
                 {feature.link && (
                     <a href={feature.link} rel="noreferrer" target="_blank">
                       <Button variant="primary">
-                        Learn More
+                        {feature?.link_text === null ? "Learn More" : feature.link_text }
                       </Button>
                     </a>
                 )}
@@ -44,7 +44,7 @@ const Features = ({ features, hideSection }) => {
                 {feature.link && (
                     <a href={feature.link} rel="noreferrer" target="_blank">
                       <Button variant="primary">
-                        Learn More
+                        {feature?.link_text === null ? "Learn More" : feature.link_text }
                       </Button>
                     </a>
                 )}

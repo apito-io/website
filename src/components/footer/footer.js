@@ -12,23 +12,19 @@ const Footer = () => {
         <Logo />
         <nav sx={styles.nav}>
           {navbar.map((item, i) => (
-            <Link key={i} href={item.url}>
-              {item.outside ?
-                <a target="_blank">{item.label}</a>
-                :
-                <a>{item.label}</a>
-              }
+            <Link key={i} href={item.url} target={item.outside ? "_blank" : null}>
+             {item.label}
             </Link>
           ))}
         </nav>
         <div sx={styles.copyright}>
           Copyright {new Date().getFullYear()} By Apito |{' '}
-          <Link href="/policies/privacy-policy">
-            <a href="/policies/privacy-policy" sx={{ mx: '5px' }}>Privacy Policy</a>
+          <Link href="/privacy-policy">
+            <a href="/privacy-policy" sx={{ mx: '5px' }}>Privacy Policy</a>
           </Link>{' '}
           |{' '}
-          <Link href="/policies/software-as-a-service-agreement">
-            <a href="/policies/software-as-a-service-agreement" sx={{ mx: '5px' }}>User Agreement</a>
+          <Link href="/user-agreement">
+            <a href="/user-agreement" sx={{ mx: '5px' }}>User Agreement</a>
           </Link>
         </div>
       </div>

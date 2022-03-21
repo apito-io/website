@@ -48,7 +48,7 @@ const sidebars = {
       type: 'category',
       label: 'Modeling Your Project',
       items: [
-        'model/intro',
+        'model/database-design',
         'model/choice-between-models'
       ],
     },
@@ -56,7 +56,7 @@ const sidebars = {
       type: 'category',
       label: 'Authentication',
       items: [
-        'auth/intro',
+        'auth/auth-support-in-api',
         'auth/create-user',
         'auth/user-login',
         'auth/using-login-token'
@@ -66,7 +66,7 @@ const sidebars = {
       type: 'category',
       label: 'Writing Logic',
       items: [
-        'logic/intro',
+        'logic/writing-cloud-functions',
         'logic/enable-lambda-extension',
         'logic/create-apito-function',
         'logic/create-lambda-function',

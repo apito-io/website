@@ -23,8 +23,8 @@ function Hello() {
                 <HeroBanner data={HomePageData.header}/>
 
                 <Features features={HomePageData.features1} hideSection={true} />
-                <Projects data={HomePageData.projects} />
-                <Features features={HomePageData.features2} />
+                {/*<Projects data={HomePageData.projects} />*/}
+                <Features features={HomePageData.features2} hideSection={true}/>
                 <ExampleQueries data={HomePageData.exampleQueries} />
                 <Features features={HomePageData.features3} hideSection={true}/>
                 <SDKintegration data={HomePageData.sdk}/>

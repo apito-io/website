@@ -9,12 +9,8 @@ const Navbar = () => {
     <Flex as="ul" sx={styles.nav}>
       {navbar.map((item, i) => (
         <li key={i}>
-          <Link href={item.url}>
-            {item.outside ?
-              <a target="_blank">{item.label}</a>
-              :
-              <a>{item.label}</a>
-            }
+          <Link key={i} href={item.url} target={item.outside ? "_blank" : null}>
+             {item.label}
           </Link>
         </li>
       ))}

@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, Container, Grid } from 'theme-ui';
 import SectionHeading from "./section-heading";
-import ProjectCard from "./cards/ProjectCard";
+import ProjectCard from "./cards/project-card";
 
 const Projects = ({ data }) => {
   return (
@@ -32,6 +32,6 @@ const styles = {
   grid: {
     gridGap: '40px',
     justifyContent: [null, null, 'center', 'unset'],
-    gridTemplateColumns: ['repeat(1, 1fr)', null, 450, 'repeat(3, 1fr)'],
+    gridTemplateColumns: ['repeat(1, 1fr)', null, 400, 'repeat(4, 1fr)'],
   },
 };
