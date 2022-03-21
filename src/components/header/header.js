@@ -20,11 +20,9 @@ const Header = ({ isSticky }) => {
   return (
     <header sx={styles.header} className={isSticky ? 'is-sticky' : ''}>
       <Container sx={styles.container}>
-        <Link rel="canonical"  href="/">
-          <a href={"/"} sx={styles.siteLogo}>
+        <span sx={styles.siteLogo}>
             <Logo className={isSticky > 0 ? 'is-sticky' : ''} />
-          </a>
-        </Link>
+        </span>
         {isMobile ? (
           <Fragment>
             <NavbarMobile isOpen={open} isSticky={isSticky} />

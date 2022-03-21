@@ -1,7 +1,7 @@
 export const HomePageData = {
     seo : {
-        title:'Instant API for Web and Mobile Apps',
-        description:'Build Instant RESTful API & GraphQL Server easily for your App with Auth, Authorization, CDN, Webhooks, Custom Functions, and much more',
+        title: 'Develop API for Web and Mobile Apps',
+        description:'Build Instant REST API & GraphQL Server easily for web and mobile apps with Authentication, Authorization, CDN, Webhooks, Cloud Functions, and much more',
         keywords: 'api, graphql, rest api, cms headless, cms for website, low code platform, app mobile development, cloud function, rbac, database model, api integration, free api, api development, free headless cms, develop an api, api roles, auth api, graphql explorer, multilingual cms, api in cloud'
     },
     header : {
@@ -301,7 +301,7 @@ curl https://api.apito.io/secured/rest/ecom/category?name:contains="shirt"`,
                     "url": "https://cdn.apito.io/media/apito_website/8XRYHC4LBQ_auth_module.svg"
                 },
                 "link": "/docs/auth/auth-support-in-api",
-                "link_text": "Learn More",
+                "link_text": "See How its Done",
                 "title": "Add Authentication Support to your API"
             }
         ],
