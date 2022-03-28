@@ -23,8 +23,7 @@ const Faq = () => {
                 <Seo data={HomePageData.seo}/>
                 <StickyHeader/>
                 <Container sx={styles.container}>
-                    <SectionHeading title="Frequently Asked Questions"/>
-
+                    <SectionHeading title="Frequently Asked Questions" as={'h1'}/>
                     <Accordion faqs={FAQData}/>
                 </Container>
                 <SDKintegration data={HomePageData.sdk}/>

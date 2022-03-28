@@ -28,7 +28,7 @@ const Accordion = ({ faqs }) => {
           key={i}
           sx={styles.item}
           showArrow={false}
-          header={<CollapseHeader title={item?.question} as="h3" />}
+          header={<CollapseHeader title={item?.question} as="h2" />}
         >
           <CollapseBody text={item?.answers?.markdown} />
         </Panel>

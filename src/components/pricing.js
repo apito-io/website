@@ -19,6 +19,7 @@ const PricingPage = () => {
           sx={styles.heading}
           slogan="Pricing Plan"
           title="Flexible Pay Per Project Plan"
+          as={'h1'}
         />
         <Flex sx={styles.priceSwitcher}>
           <Button

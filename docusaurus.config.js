@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apito Documentation',
+  title: 'Apito Docs',
   tagline: 'Develop API for Web and Mobile Apps. Build Instantly, Deploy in Seconds',
   url: 'https://apito.io',
   baseUrl: '/',
@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'sh0umik', // Usually your GitHub org/user name.
-  projectName: 'apito-docs', // Usually your repo name.
+  projectName: 'apito-website-v2', // Usually your repo name.
 
   presets: [
     [

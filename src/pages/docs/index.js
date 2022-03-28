@@ -171,8 +171,8 @@ export default function Home() {
 
             <div className="hero shadow--lw">
                 <div className="container">
-                    <h1 className="hero__title">{siteConfig.title}</h1>
-                    <p className="hero__subtitle">{siteConfig.tagline}</p>
+                    <h1 className="hero__title">{'Develop API for Web and Mobile Apps'}</h1>
+                    <p className="hero__subtitle">{'Build API Instantly, Deploy in Seconds'}</p>
                     <div>
                         <button className="button button--secondary button--outline button--lg">
                             <Link

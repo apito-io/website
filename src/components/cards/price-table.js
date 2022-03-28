@@ -8,7 +8,7 @@ const PriceTable = ({ id, data, isMonthly }) => {
   return (
     <div sx={styles.root}>
       <header sx={styles.header}>
-        <Heading as="h3">{data.title}</Heading>
+        <Heading as="h2">{data.title}</Heading>
         <Text as="p">{data.description}</Text>
       </header>
       <ul sx={styles.features}>

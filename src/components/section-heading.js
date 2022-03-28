@@ -2,11 +2,11 @@
 /** @jsx jsx */
 import { jsx, Heading, Text } from 'theme-ui';
 
-const SectionHeading = ({ slogan, title, description, ...props }) => {
+const SectionHeading = ({ slogan, title, description, as, ...props }) => {
   return (
     <div sx={styles.heading} {...props}>
       <Text as="span">{slogan}</Text>
-      <Heading as="h2">{title}</Heading>
+      <Heading as={as !== undefined ? as : 'h2'}>{title}</Heading>
       <Text as="p">{description}</Text>
     </div>
   );
