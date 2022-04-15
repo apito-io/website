@@ -72,6 +72,7 @@ const styles = {
   heading: {
     textAlign: ['center', null, null, 'left'],
     px: [20, null, null, 0],
+    alignSelf: 'center',
     '.slogan': {
       fontSize: 14,
       fontWeight: 700,

@@ -37,11 +37,11 @@ const config = {
         },
         googleAnalytics: {
           trackingID: 'UA-149868545-2',
-          anonymizeIP: true,
+          anonymizeIP: false,
         },
         gtag: {
           trackingID: 'G-52W9MN75ZP',
-          anonymizeIP: true,
+          anonymizeIP: false,
         },
       }),
     ],
