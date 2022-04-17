@@ -15,7 +15,7 @@ const HeroBanner = ({ data }) => {
             </Heading>
             <p>{data?.description}</p>
             <a href="https://app.apito.io" target="_blank">
-              <Button>Start Building API</Button>
+              <Button>START BUILDING API</Button>
             </a>
           </Box>
           <Box as="figure">

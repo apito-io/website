@@ -28,12 +28,13 @@ const sidebars = {
    */
 
   docs: [
-    {
-      'Getting started': ['build-api-quick-start-guide'],
-    },
+    'build-api-quick-start-guide',
     {
       type: 'category',
       label: 'Apito Console',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'console/how-to-design-database-for-your-project',
         'console/usages-of-swagger-and-graphql-explorer',
@@ -47,6 +48,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Modeling Your Project',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'model/database-design',
         'model/choice-between-models'
@@ -55,6 +59,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Authentication',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'auth/auth-support-in-api',
         'auth/create-user',
@@ -65,6 +72,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Writing Logic',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'logic/writing-cloud-functions',
         'logic/enable-lambda-extension',
@@ -77,6 +87,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Third Party Integration',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'third-party/prerequisite',
       ],
@@ -84,6 +97,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Building Apps',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         {
           type: 'category',
@@ -104,10 +120,16 @@ const sidebars = {
     {
       type: 'category',
       label: 'API Integration',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         {
           type: 'category',
           label: 'RESTful API',
+          link: {
+            type: 'generated-index',
+          },
           items: [
             'restapi/integration-with-java',
             'restapi/integration-with-android',
@@ -125,6 +147,9 @@ const sidebars = {
         {
           type: 'category',
           label: 'GraphQL Client',
+          link: {
+            type: 'generated-index',
+          },
           items: [
             'graphql/integration-with-java',
             'graphql/integration-with-android',
@@ -144,6 +169,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Configuring Cloud Providers',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         {
           type: 'category',
