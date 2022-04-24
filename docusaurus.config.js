@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'sh0umik', // Usually your GitHub org/user name.
   projectName: 'apito-website-v2', // Usually your repo name.
-
+  trailingSlash: false,
   presets: [
     [
       'classic',
